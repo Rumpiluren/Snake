@@ -57,8 +57,7 @@ namespace Snake
                         }
                         break;
                     case ConsoleKey.Escape:
-                        //Environment.Exit(0);
-                        Eat();
+                        Environment.Exit(0);
                         break;
                 }
             }
